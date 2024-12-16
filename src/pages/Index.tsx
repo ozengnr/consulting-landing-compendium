@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { ChevronRight, BarChart, Users, Rocket } from "lucide-react";
+import { ChevronRight, BarChart, DollarSign, Rocket } from "lucide-react";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -49,9 +49,9 @@ const Index = () => {
       icon: BarChart,
     },
     {
-      title: "Customer Development",
-      description: "Identify and validate your target customer segments",
-      icon: Users,
+      title: "Pricing",
+      description: "Strategic pricing models and monetization strategies",
+      icon: DollarSign,
     },
   ];
 
